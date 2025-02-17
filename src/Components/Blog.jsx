@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 const Blog = () => {
   return (
     <>
-      <section className="bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+      <section className="bg-slate-100 pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -11,7 +11,7 @@ const Blog = () => {
                 <span className="mb-2 block text-lg font-semibold text-primary">
                   Our Blogs
                 </span>
-                <h2 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px]">
+                <h2 className="mb-4 text-3xl font-bold text-dark dark:text-black sm:text-4xl md:text-[40px]">
                   Our Recent News
                 </h2>
                 <p className="text-base text-body-color dark:text-dark-6">

@@ -12,8 +12,8 @@ export function Navbar() {
   }, []);
 
   return (
-    <div className=" max-h-[768px] w-full overflow-auto">
-      <nav className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 bg-transparent text-white shadow">
+    <div className=" max-h-[768px] w-full  overflow-auto">
+      <nav className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 bg-[rgba(2,26,54,1)]   text-white shadow">
         <div className="flex items-center justify-between text-blue-gray-900">
          <Link to='/' className="mr-4 cursor-pointer py-1.5 font-medium">
             CyberSecure.in
@@ -28,7 +28,7 @@ export function Navbar() {
                   <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Blog</Link>
+                  <Link to="/blog">Blog</Link>
                 </li>
                 <li>
                   <Link to="/services">Services</Link>
@@ -90,7 +90,7 @@ export function Navbar() {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/contact">Blog</Link>
+                <Link to="/blog">Blog</Link>
               </li>
               <li>
                 <Link to="/services">Services</Link>
